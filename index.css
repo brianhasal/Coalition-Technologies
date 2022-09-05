@@ -1,31 +1,56 @@
-.Hero {
+.hero {
   position: absolute;
   left: 0px;
   top: 0px;
   width: 1600px;
-  height: 825px;
+  height: 912px;
   z-index: 115;
+
 }
-.Nav {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1600px;
-  height: 2644px;
-  z-index: 113;
-}
-._01__history_______________02__team {
+.navbar {
   font-size: 12px;
   font-family: "Lato";
   color: rgb(254, 254, 255);
   font-style: italic;
   text-transform: uppercase;
   line-height: 1.667;
-  position: absolute;
-  left: 1080.516px;
-  top: 19.498px;
-  z-index: 112;
+  position: fixed;
+  display: flex;
+  width: 1600px;
+  height: 50px;
+  /* background-image: url("./lamountains.png"); */
 }
+
+.logo_nav {
+  position: absolute;
+  left: 343px;
+  top: 8px;
+}
+
+.link {
+  font-size: 12px;
+  font-family: "Lato";
+  color: rgb(254, 254, 255);
+  font-style: italic;
+  text-transform: uppercase;
+}
+.nav_links{
+  position: absolute;
+  line-height: 1.667;
+  top: 19.498px;
+  right: 320px;
+}
+
+.homepage {
+  width: 1600px;
+  height: 912px;
+  background: url("./lamountains.png") ;
+}
+
+
+
+
+
 .Shape_1_copy_2 {
   background-color: rgb(255, 255, 255);
   position: absolute;
@@ -44,49 +69,8 @@
   height: 1px;
   z-index: 110;
 }
-.Image {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1600px;
-  height: 2644px;
-  z-index: 108;
-}
-.Layer_628 {
-  background-image: url("Layer 628.png");
-  opacity: 0.502;
-  position: absolute;
-  left: 0px;
-  top: 420px;
-  width: 1600px;
-  height: 1464px;
-  z-index: 107;
-}
-.LOSANGELES_MOUNTAINS_copy {
-  font-size: 13.29px;
-  font-family: "Bebas";
-  color: rgb(77, 77, 77);
-  text-transform: uppercase;
-  line-height: 1.079;
-  text-align: left;
-  -moz-transform: matrix( 8.61223977351529,0,0,8.68890863484864,0,0);
-  -webkit-transform: matrix( 8.61223977351529,0,0,8.68890863484864,0,0);
-  -ms-transform: matrix( 8.61223977351529,0,0,8.68890863484864,0,0);
-  position: absolute;
-  left: 671.952px;
-  top: 356.037px;
-  z-index: 106;
-}
-.Layer_627 {
-  background-image: url("Layer 627.png");
-  opacity: 0.29;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1600px;
-  height: 912px;
-  z-index: 103;
-}
+
+
 
 
 
@@ -101,7 +85,7 @@
   height: 2644px;
   z-index: 99;
 }
-.Logo {
+.logo_sticky {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -109,41 +93,9 @@
   height: 2644px;
   z-index: 98;
 }
-.LOSANGELES_MOUNTAINS {
-  font-size: 13.29px;
-  font-family: "Bebas";
-  color: rgb(77, 77, 77);
-  text-transform: uppercase;
-  line-height: 1.079;
-  text-align: left;
-  -moz-transform: matrix( 1.57940087361327,0,0,1.59346119587011,0,0);
-  -webkit-transform: matrix( 1.57940087361327,0,0,1.59346119587011,0,0);
-  -ms-transform: matrix( 1.57940087361327,0,0,1.59346119587011,0,0);
-  position: absolute;
-  left: 412.952px;
-  top: 862.537px;
-  z-index: 96;
-}
-.Nav {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1600px;
-  height: 2644px;
-  z-index: 94;
-}
-._01__history_______________02__team {
-  font-size: 12px;
-  font-family: "Lato";
-  color: rgb(65, 79, 107);
-  font-style: italic;
-  text-transform: uppercase;
-  line-height: 1.667;
-  position: absolute;
-  left: 1080.516px;
-  top: 849.498px;
-  z-index: 93;
-}
+
+
+
 .Shape_1_copy_2 {
   background-color: rgb(65, 79, 107);
   position: absolute;
@@ -171,7 +123,7 @@
 
 
 
-
+/* 
 
 ._1 {
   position: absolute;
@@ -735,4 +687,4 @@
 
 
 
-
+ */
