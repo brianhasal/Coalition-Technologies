@@ -26,6 +26,8 @@
   top: 8px;
 }
 
+
+
 .link {
   font-size: 12px;
   font-family: "Lato";
@@ -73,38 +75,70 @@
 
 
 
-
-
-
 .navbar_sticky {
+  overflow: hidden;
+  background-color: rgb(254, 254, 255);
   position: sticky;
   left: 0px;
   top: 0px;
   width: 1600px;
-  height: 2644px;
-  z-index: 99;
+  display: flex;
 }
 
 .logo_sticky {
-  padding: 8px;
+  padding-top: 8px;
   position: sticky;
   width: 43px;
   height: 43px;
   left: 343px;
+  margin: 5px;
+}
+
+.los_angeles_mountains_text {
+  font-size: 22.84px;
+  font-family: "Bebas Neue";
+  color: rgb(77, 77, 77);
+  text-transform: uppercase;
+  line-height: 1.079;
+  text-align: center;
+  position: sticky;
+  left: 396px;
+  top: 862.537px;
+  margin-top: .3em;
+  padding-top: 8px;
+  
+
+}
+
+.br {
+  display: block;
+  position: sticky;
+  margin-bottom: -.3em;
+  padding: 0;
 }
 
 .link_sticky {
+  position: sticky;
   font-size: 12px;
   font-family: "Lato";
   color: #414f6b;
   font-style: italic;
   text-transform: uppercase;
+  
 }
+
 .nav_links_sticky {
   position: absolute;
   line-height: 1.667;
   top: 19.498px;
   right: 320px;
+  
+}
+
+.page_one_A {
+  width: 1600px;
+  height: 912px;
+  background: url("./Bg1.png");
 }
 
 
