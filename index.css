@@ -100,14 +100,26 @@
   color: rgb(77, 77, 77);
   text-transform: uppercase;
   line-height: 1.079;
-  text-align: center;
+  text-align: justify;
   position: sticky;
   left: 396px;
   top: 862.537px;
   margin-top: .3em;
   padding-top: 8px;
+  align-items: flex-start;
   
 
+}
+
+.los_angeles {
+
+
+}
+
+.mountains {
+  -webkit-transform:scale(1.1,1);
+  
+  
 }
 
 .br {
