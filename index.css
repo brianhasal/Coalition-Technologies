@@ -1,4 +1,4 @@
-.hero {
+.head {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -7,6 +7,9 @@
   z-index: 115;
 
 }
+
+/* MAIN NAVIGATION BAR */
+
 .navbar {
   font-size: 12px;
   font-family: "Lato";
@@ -21,21 +24,14 @@
   background-color: transparent;
 }
 
+/* LOGO */
 .logo_nav {
   position: absolute;
   left: 343px;
   top: 8px;
 }
 
-
-
-.link {
-  font-size: 12px;
-  font-family: "Lato";
-  color: rgb(254, 254, 255);
-  font-style: italic;
-  text-transform: uppercase;
-}
+/* LINKS DIV */
 .nav_links{
   position: absolute;
   line-height: 1.667;
@@ -43,6 +39,24 @@
   right: 320px;
 }
 
+/* INDIVIDUAL LINK */
+.link {
+  font-size: 12px;
+  font-family: "Lato";
+  color: rgb(254, 254, 255);
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+/* HOMEPAGE */
 .homepage {
   width: 1600px;
   height: 912px;
@@ -53,29 +67,13 @@
 
 
 
-.Shape_1_copy_2 {
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  left: 1214px;
-  top: 38px;
-  width: 66px;
-  height: 1px;
-  z-index: 111;
-}
-.Shape_1_copy {
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  left: 1081px;
-  top: 38px;
-  width: 84px;
-  height: 1px;
-  z-index: 110;
-}
 
 
 
 
 
+
+/* STICKY NAVBAR */
 .navbar_sticky {
   overflow: hidden;
   background-color: rgb(254, 254, 255);
@@ -86,6 +84,7 @@
   display: flex;
 }
 
+/* STICKY LOGO */
 .logo_sticky {
   padding-top: 8px;
   position: sticky;
@@ -95,6 +94,7 @@
   margin: 5px;
 }
 
+/* STICKY LOS ANGELES TEXT */
 .los_angeles_mountains_text {
   font-size: 22.84px;
   font-family: "Bebas Neue";
@@ -107,22 +107,11 @@
   top: 862.537px;
   margin-top: .3em;
   padding-top: 8px;
-  align-items: flex-start;
   
 
 }
 
-.los_angeles {
-
-
-}
-
-.mountains {
-  -webkit-transform:scale(1.1,1);
-  
-  
-}
-
+/* BREAK */
 .br {
   display: block;
   position: sticky;
@@ -130,6 +119,25 @@
   padding: 0;
 }
 
+
+/* STICKY 'MOUNTAIN' */
+.mountains {
+  -webkit-transform:scale(1.1,1);
+  
+}
+
+
+/* STICKY LINKS DIV */
+.nav_links_sticky {
+  position: absolute;
+  line-height: 1.667;
+  top: 19.498px;
+  right: 320px;
+  
+}
+
+
+/* STICKY INDIVIDUAL LINK */
 .link_sticky {
   position: sticky;
   font-size: 12px;
@@ -140,14 +148,61 @@
   
 }
 
-.nav_links_sticky {
+
+
+
+
+/* STICKY COLLAPSING MENU - UNFINISHED */
+.collapsible-menu {
+  background-color: rgb(255, 255, 255);
   position: absolute;
-  line-height: 1.667;
-  top: 19.498px;
-  right: 320px;
+  right: 0px;
+
+}
+
+.menu-content {
+  max-height: 0;
+  overflow: hidden;
   
 }
 
+.collapsible-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.collapsible-menu a {
+  display:sticky;
+  padding: 3px;
+  font-size: 12px;
+  font-family: "Lato";
+  color: #414f6b;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.collapsible-menu label {
+  display: fixed;
+  cursor: pointer;
+}
+
+input#menu {
+  display: none;
+}
+
+input:checked ~ .menu-content {
+  max-height: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* PAGE ONE */
 .page_one_A {
   width: 1600px;
   height: 912px;
