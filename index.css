@@ -218,7 +218,6 @@ input:checked ~ .menu-content {
   top: 0px;
   width: 1600px;
   height: 2644px;
-  /* z-index: 49; */
 }
 
 .bg_rectangle_24 {
@@ -284,7 +283,7 @@ legend {
 
 
 
-.Shape_1_copy_2 {
+/* .Shape_1_copy_2 {
   background-color: rgb(65, 79, 107);
   position: absolute;
   left: 1214px;
@@ -301,7 +300,7 @@ legend {
   width: 84px;
   height: 1px;
   z-index: 91;
-}
+} */
 
 
 
@@ -311,17 +310,19 @@ legend {
 
 
 
-/* 
+ 
 
-._1 {
+.big_number_1 {
   position: absolute;
   left: 0px;
-  top: 899px;
+  /* top: 899px; */
   width: 1600px;
   height: 710px;
   z-index: 88;
 }
-.Text {
+
+
+.text {
   position: absolute;
   left: 0px;
   top: -899px;
@@ -329,6 +330,7 @@ legend {
   height: 2644px;
   z-index: 87;
 }
+
 ._01_ {
   font-size: 11.264px;
   font-family: "Oswald";
@@ -342,9 +344,11 @@ legend {
   position: absolute;
   left: 395.747px;
   top: 1019.242px;
-  z-index: 86;
+  z-index: 101;
 }
-._HISTORY {
+
+
+._history {
   font-size: 11.264px;
   font-family: "Oswald";
   color: rgb(65, 79, 107);
@@ -359,19 +363,22 @@ legend {
   top: 1032.242px;
   z-index: 85;
 }
-.Lorem_ipsum_dolor_sit_amet__consectetur_adipisc {
+.lorem_ipsum {
   font-size: 16px;
   font-family: "Lato";
   color: rgb(0, 0, 0);
+  font-weight: light;
   line-height: 1.5;
   text-align: left;
   position: absolute;
   left: 392.312px;
   top: 1111.34px;
-  width: 809px;
+  width: 822px;
   height: 62px;
   z-index: 84;
 }
+
+/*
 .Bg {
   position: absolute;
   left: 0px;
