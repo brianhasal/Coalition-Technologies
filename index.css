@@ -694,28 +694,34 @@ legend {
   z-index: 30;
 }
 
+
+
+
+
 .Tab_1 {
   position: absolute;
   left: 0px;
   height: 546px;
   width: 1600px;
   z-index: 28;
-
-
 }
+
 .Tab_1_Content {
   position: absolute;
   top: 0px;
   width: 1600px;
   height: 546px;
   z-index: 27;
+  overflow: hidden;
 }
 
 .page_2_background_m1 {
   background-image: url("./mountain1.png");
-  background-size: 100% auto;
-  margin-top: -280px;
-  width: 1600px;
+  background-size: 97.6% auto;
+  margin-top: -293px;
+  margin-left: -31px;
+  padding-left: 8px;
+  width: 1682px;
   height: 1067px;
   overflow: hidden;
 }
@@ -764,6 +770,83 @@ legend {
 }
 
   
+
+
+
+
+
+
+
+.Tab_2 {
+  position: absolute;
+  left: 0px;
+  height: 546px;
+  width: 1600px;
+  z-index: 20;
+}
+
+.Tab_2_Content {
+  position: absolute;
+  top: 0px;
+  width: 1600px;
+  height: 546px;
+  z-index: 19;
+  overflow: hidden;
+}
+
+.page_2_background_m2 {
+  background-image: url("./mountain2.png");
+  background-size: 100% auto;
+  margin-top: -280px;
+  width: 1600px;
+  height: 1067px;
+  overflow: hidden;
+  z-index: 18;
+}
+
+
+.Rectangle_22B {
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  left: 351px;
+  top: 90px;
+  width: 352px;
+  height: 229px;
+  z-index: 24;
+}
+
+
+.TAB_2_SCHEDULE {
+  font-size: 11.264px;
+  font-family: "Oswald";
+  color: rgb(65, 79, 107);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -webkit-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -ms-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  position: absolute;
+  left: 433.823px;
+  top: 125px;
+  z-index: 17;
+}
+
+.TAB_2_LOREM {
+  font-size: 14px;
+  font-family: "Lato";
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  font-weight: thin;
+  position: absolute;
+  left: 391px;
+  top: 158px;
+  width: 270px;
+  height: 131px;
+  z-index: 16;
+  padding-right: -10px;
+}
 
 /* .Tab_2 {
   position: absolute;
