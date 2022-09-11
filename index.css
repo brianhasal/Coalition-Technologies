@@ -796,8 +796,9 @@ legend {
 
 .page_2_background_m2 {
   background-image: url("./mountain2.png");
-  background-size: 100% auto;
-  margin-top: -280px;
+  background-size: 102.5% auto;
+  margin-top: -190px;
+  margin-left: -15px;
   width: 1600px;
   height: 1067px;
   overflow: hidden;
@@ -806,13 +807,12 @@ legend {
 
 
 .Rectangle_22B {
-  background-color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.7);
   position: absolute;
   left: 351px;
   top: 90px;
   width: 352px;
   height: 229px;
-  z-index: 24;
 }
 
 
@@ -830,6 +830,7 @@ legend {
   left: 433.823px;
   top: 125px;
   z-index: 17;
+  opacity: 1;
 }
 
 .TAB_2_LOREM {
@@ -846,6 +847,7 @@ legend {
   height: 131px;
   z-index: 16;
   padding-right: -10px;
+  opacity: 1;
 }
 
 /* .Tab_2 {
