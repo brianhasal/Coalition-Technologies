@@ -208,8 +208,11 @@ input:checked ~ .menu-content {
 /* PAGE ONE */
 .page_one_A {
   width: 1600px;
+  top: 0;
   height: 912px;
+  bottom: 0;
   background: url("./Bg1.png");
+  overflow: hidden;
 }
 
 
@@ -329,7 +332,7 @@ legend {
   left: 0px;
   top: -899px;
   width: 1600px;
-  height: 2644px;
+  /* height: 2644px; */
   z-index: 87;
 }
 
@@ -692,6 +695,7 @@ legend {
   width: 1600px;
   height: 546px;
   z-index: 30;
+
 }
 
 
@@ -850,114 +854,82 @@ legend {
   opacity: 1;
 }
 
-/* .Tab_2 {
+
+
+.footer_container {
+  display: flex;
   position: absolute;
-  left: 0px;
-  top: -2024px;
   width: 1600px;
-  height: 2644px;
-  z-index: 20;
+  height: 74px;
+  top: 2670px;
 }
-.Content {
+.rectangle_19 {
+  background-color: rgb(65, 79, 107);
   position: absolute;
-  left: 0px;
-  top: 0px;
   width: 1600px;
-  height: 2644px;
-  z-index: 19;
-}
-.SCHEDULE {
-  font-size: 11.264px;
-  font-family: "Oswald";
-  color: rgb(65, 79, 107);
-  font-weight: bold;
-  line-height: 1.2;
-  text-align: left;
-  -moz-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
-  -webkit-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
-  -ms-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
-  position: absolute;
-  left: 433.823px;
-  top: 2155.242px;
-  z-index: 18;
-}
-._17_Nov_2016__Vestibulum_viverra__13_Dec_2016__V {
-  font-size: 16px;
-  font-family: "Lato";
-  color: rgb(0, 0, 0);
-  line-height: 1.5;
-  text-align: left;
-  position: absolute;
-  left: 391.078px;
-  top: 2217.34px;
-  width: 270px;
-  height: 131px;
-  z-index: 17;
-}
-.Rectangle_22B {
-  background-color: rgb(255, 255, 255);
-  opacity: 0.702;
-  position: absolute;
-  left: 351px;
-  top: 2125px;
-  width: 352px;
-  height: 229px;
-  z-index: 16;
+  min-height: 74px;
+  bottom: 0;
+
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-.Footer {
+/* FOOTER LOGO */
+.footer_logo {
+  padding-top: 8px;
   position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1600px;
-  height: 2644px;
-  z-index: 10;
-}
-.Logo {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1600px;
-  height: 2644px;
+  width: 43px;
+  height: 43px;
+  left: 343px;
+  margin: 5px;
   z-index: 9;
+
 }
-.Layer_629 {
-  background-image: url("Layer 629.png");
+
+
+/* FOOTER LOGO COLOR */
+.layer_629 {
+ 
+  padding-top: 10px;
   position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1600px;
-  height: 2644px;
+  width: 43px;
+  height: 43px;
+  left: 343px;
+  margin: 5px;
   z-index: 8;
 }
-.LOSANGELES_MOUNTAINS {
-  font-size: 13.29px;
-  font-family: "Bebas";
+.footer_losangeles_mountains {
+  font-size: 23px;
+  font-family: "Bebas Neue";
   color: rgb(99, 118, 157);
   text-transform: uppercase;
   line-height: 1.079;
-  text-align: left;
-  -moz-transform: matrix( 1.57940087361327,0,0,1.59346119587011,0,0);
-  -webkit-transform: matrix( 1.57940087361327,0,0,1.59346119587011,0,0);
-  -ms-transform: matrix( 1.57940087361327,0,0,1.59346119587011,0,0);
+  text-align: justify;
   position: absolute;
-  left: 412.952px;
-  top: 2607.537px;
+  left: 396px;
   z-index: 6;
+  margin-top: .3em;
+  padding-top: 8px;
+  min-height: 43px;
 }
-.COPYRIGHT_2016__ALL_RIGHTS_RESERVED_ {
+
+
+/* FOOTER BREAK */
+.footer_br {
+  display: block;
+  margin-bottom: -.28em;
+  padding: 0;
+}
+
+
+/* FOOTER 'MOUNTAIN' */
+.footer_mountains {
+  -webkit-transform:scale(1.1,1);
+  
+}
+
+  
+
+.COPYRIGHT_2016__ALL_RIGHTS_RESERVED {
   font-size: 12px;
   font-family: "Lato";
   color: rgb(99, 118, 157);
@@ -965,39 +937,14 @@ legend {
   text-transform: uppercase;
   line-height: 1.667;
   position: absolute;
-  left: 1016.609px;
-  top: 2594.498px;
+  right: 321px;
   z-index: 4;
-}
-.Rectangle_19 {
-  background-color: rgb(65, 79, 107);
-  position: absolute;
-  left: 0px;
-  top: 2570px;
-  width: 1600px;
-  height: 74px;
-  z-index: 3;
+  align-self: center;
+
 }
 
 
 
-
-
-
-
-
-
-
-.Layer_626 {
-  background-image: url("Layer 626.png");
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1600px;
-  height: 2644px;
-  z-index: 1;
-}
- */
 
 
 
