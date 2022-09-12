@@ -1,3 +1,12 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  scroll-behavior: smooth;;
+}
+
+
+
 .head {
   position: absolute;
   left: 0px;
@@ -60,7 +69,7 @@
 /* HOMEPAGE */
 .homepage {
   width: 1600px;
-  height: 912px;
+  height: 825px;
   background: url("./lamountains.png") ;
   z-index: 103;
 }
@@ -81,8 +90,8 @@
   background-color: rgb(254, 254, 255);
   position: sticky;
   left: 0px;
-  top: 0px;
-  bottom: 0px;
+  top: 0;
+  margin-top: 100px;
   width: 1600px;
   display: flex;
   z-index: 100;
@@ -221,7 +230,7 @@ input:checked ~ .menu-content {
 .bg_rectangle {
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: -10px;
   width: 1600px;
   height: 2644px;
 }
@@ -229,7 +238,7 @@ input:checked ~ .menu-content {
 .bg_rectangle_24 {
   background-color: rgb(65, 79, 107, 0.8);
   position: absolute;
-  left: 8px;
+  left: 0;
   top: 1700px;
   width: 1600px;
   height: 195px;
@@ -383,6 +392,8 @@ input:checked ~ .menu-content {
   width: 1600px;
   height: 770px;
   z-index: 41;
+  background-color: white;
+  /* margin-top: -7px; */
 }
 .two_text {
   position: absolute;
@@ -534,7 +545,7 @@ input:checked ~ .menu-content {
   background-size: 97.6% auto;
   margin-top: -293px;
   margin-left: -31px;
-  padding-left: 8px;
+  /* padding-left: 8px; */
   width: 1682px;
   height: 1067px;
   overflow: hidden;
