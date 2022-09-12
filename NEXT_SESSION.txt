@@ -6,3 +6,6 @@ RADIO FOR MOUNTAIN 1 / MOUNTAIN 2 SWITCH
 STICKY NAV ONLY TO PAGE 1
 
 HIGHLIGHT ACTIVE
+
+replace underlines with lines in  og navbar
+
