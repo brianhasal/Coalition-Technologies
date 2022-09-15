@@ -553,6 +553,7 @@ input[type=checkbox] {
   /* margin-left: 371.232px; */
   width: 1600px;
   height: 40px;
+  margin-bottom: -100px;
 }
 
 .mountain_a {
@@ -648,7 +649,7 @@ input:checked + .mountain_off:before {
   top: 224px;
   width: 1600px;
   height: 546px;
-  margin-bottom: -50px;
+  margin-top: -4px;
 
 }
 
