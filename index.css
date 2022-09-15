@@ -70,11 +70,33 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:active {
   text-decoration: underline;
+}
+
+.shape_1_copy_2 {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  left: 1218px;
+  width: 55px;
+  top: 37px;
+  height: 1px;
+  z-index: 1001;
+}
+
+.shape_1_copy {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  left: 1098px;
+  width: 68px;
+  height: 1px;
+  top: 37px;
+  z-index: 1000;
 }
 
 
@@ -170,9 +192,15 @@ a:active {
 
 /* STICKY LINKS DIV */
 .nav_links_sticky {
-  position: absolute;
-  line-height: 1.667;
-  right: 330px;
+  display: flex;
+  /* flex-direction: column; */
+  position: sticky;
+  /* line-height: 1.667; */
+  left: 1098px;
+  height: 30px;
+  z-index: 980;
+
+
   
 }
 
@@ -180,6 +208,7 @@ a:active {
 /* STICKY INDIVIDUAL LINK */
 .link_sticky {
   position: sticky;
+  display: flex;
   font-size: 12px;
   font-family: "Lato";
   color: #414f6b;
@@ -189,24 +218,27 @@ a:active {
   
 }
 
-/* .Shape_1_copy_2 {
+.sticky_shape_1_copy_2 {
   background-color: rgb(65, 79, 107);
   position: absolute;
-  left: 1214px;
-  top: 868px;
-  width: 66px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 55px;
+  left: 1218px;
+  /* top: 54px; */
   height: 1px;
-  z-index: 92;
+  z-index: 982;
 }
-.Shape_1_copy {
+.sticky_shape_1_copy {
   background-color: rgb(65, 79, 107);
   position: absolute;
-  left: 1081px;
-  top: 868px;
-  width: 84px;
+  left: 1098px;
+  /* top: 25px; */
+  width: 68px;
   height: 1px;
-  z-index: 91;
-} */
+  z-index: 981;
+}
+
 
 
 /* 
