@@ -365,12 +365,53 @@ input:checked ~ .menu-content {
 
 .bg_rectangle_24 {
   background-color: rgb(65, 79, 107, 0.8);
-  left: 0;
   width: 1600px;
   height: 195px;
 }
 
-.rad,
+.carousel {
+  margin: auto;
+  display: flex;
+  padding-top: 26px;
+  max-width: 910px;
+  overflow-x: scroll;
+  gap: 10px;
+  
+}
+
+.thumbnail_1 {
+  background-image: url("./thumb1.png");
+  background-size: 113% 125%;
+  background-position: -7px;
+  top: 26px;
+  min-width: 220px;
+  max-width: 220px;
+  max-height: 135px;
+  min-height: 135px;
+}
+
+.thumbnail_2 {
+  background-image: url("./thumb2.png");
+  background-size: 114% 124%;
+  background-position: left -28px top 0px;
+  top: 26px;
+  min-width: 220px;
+  max-width: 220px;
+  max-height: 135px;
+  min-height: 135px;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar{
+  height: 0px;
+  width: 0px;
+}
+
+
+
+/* ANTIQUE RADIO CSS */
+
+/* .rad,
 .set {
   border: 0;
   display: none;
@@ -390,16 +431,17 @@ input:checked ~ .menu-content {
   display: block;
   opacity: 1;
 }
+*/
 
 .fssw {
   border: 0;
+  padding-top: 15px;
 }
 .switcher {
   display: flex;
   justify-content: center;
   margin-top: -8px;
 }
-
 
 .btn {
   display: flex;
