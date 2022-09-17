@@ -56,7 +56,7 @@
       <div class="page_one_body">
         <div class="_01_">01.</div>
         <div class="_history">HISTORY</div>
-        <div class="lorem_ipsum">
+        <div class="lorem_ipsum" id="carouselMarkers">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum,
           consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras
           scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam.
@@ -66,68 +66,24 @@
       <div class="page_one_footer">
         <div class="bg_rectangle_24">
           <div class="carousel">
-            <!-- <div class="antique_radio"> -->
-              <!-- <div class="carousel">
-                <input checked="checked" id="rad0" class="rad" name="rad" type="radio" />
-
-                <fieldset class="set">
-                  <div class="images_by_4">
-                    <img src="./thumb1.png" class="thumbnail" />
-                    <img src="./thumb2.png" class="thumbnail" />
-                    <img src="./thumb1.png" class="thumbnail" />
-                    <img src="./thumb2.png" class="thumbnail" />
-                  </div>
-                </fieldset>
-
-                <input id="rad1" class="rad" name="rad" type="radio" />
-
-                <fieldset class="set">
-                  <div class="images_by_4">
-                    <img src="./thumb1.png" class="thumbnail" />
-                    <img src=".#" class="thumbnail" />
-                    <img src="./thumb1.png" class="thumbnail" />
-                    <img src="./thumb2.png" class="thumbnail" />
-                  </div>
-                </fieldset>
-
-                <input id="rad2" class="rad" name="rad" type="radio" />
-
-                <fieldset class="set">
-                  <div class="images_by_4">
-                    <img src="./thumb1.png" class="thumbnail" />
-                    <img src="./thumb2.png" class="thumbnail" />
-                    <img src="#" class="thumbnail" />
-                    <img src="./thumb2.png" class="thumbnail" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="fssw">
-                  <div class="switcher">
-                    <label for="rad0" class="btn" type="radio"></label>
-                    <label for="rad1" class="btn" type="radio"></label>
-                    <label for="rad2" class="btn" type="radio"></label>
-                  </div>
-                </fieldset>
-
-              </div> -->
-              <div class="thumbnail_1"></div>
-              <div class="thumbnail_2"></div>            
-              <div class="thumbnail_1"></div>
-              <div class="thumbnail_2"></div>
-              <div class="thumbnail_1"></div>
-              <div class="thumbnail_2"></div>            
-              <div class="thumbnail_1"></div>
-              <div class="thumbnail_2"></div>            
-              <div class="thumbnail_1"></div>
-              <div class="thumbnail_2"></div>            
-              <div class="thumbnail_1"></div>
-              <div class="thumbnail_2"></div>
+              <a href="thumb1.png"><div class="thumbnail_1" id="startMarker"></div></a>
+              <a href="thumb2.png"><div class="thumbnail_2"></div>            
+              <a href="thumb1.png"><div class="thumbnail_1"></div></a>
+              <a href="thumb2.png"><div class="thumbnail_2"></div></a>
+              <a href="thumb1.png"><div class="thumbnail_1"></div></a>
+              <a href="thumb2.png"><div class="thumbnail_2"></div></a>
+              <a href="thumb1.png"><div class="thumbnail_1" id="midMarker"></div></a>
+              <a href="thumb2.png"><div class="thumbnail_2"></div></a>          
+              <a href="thumb1.png"><div class="thumbnail_1"></div></a>
+              <a href="thumb2.png"><div class="thumbnail_2"></div></a>           
+              <a href="thumb1.png"><div class="thumbnail_1"></div></a>
+              <a href="thumb2.png"><div class="thumbnail_2" id="endMarker"></div></a>
             </div>
             <div class="fssw">
               <div class="switcher">
-                <div class="btn" id="1"></div>
-                <div class="btn" id="2"></div>
-                <div class="btn" id="3"></div>
+                <a href="#startMarker" class="carouselMarkers"><div class="btn" id="1"></div></a>
+                <a href="#midMarker" class="carouselMarkers"><div class="btn" id="2"></div></a>
+                <a href="#endMarker" class="carouselMarkers"><div class="btn" id="3"></div></a>
               </div>
             </div>            
           </div>

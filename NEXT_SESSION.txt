@@ -3,14 +3,6 @@
 Start Using JavaScript
 
 
-
-HIGHLIGHT CAROUSEL ACTIVE BUTTON
-
-JS/CSS
-1st button = Starting image
-center button = 1/2 length of images
-last button = last image
-
 (CSSONLY - each button is assigned a corresponding div - moves pictures down
 new color for pushed buttons use the HOLY GRAIL bookmark)
 
