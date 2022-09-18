@@ -104,21 +104,28 @@
       <div class="tabs">
         <label for="mountain-switch" class="switch">
           <span>
-            <div class="mountain_a">MOUNTAIN 1</div>
-            <div class="mountain_i">MOUNTAIN 2</div>
+            <div id="mountain1_active">
+              <div class="mountain_1_a">MOUNTAIN 1</div>
+              <div class="rectangle_m1_a"></div>
+              <div class="mountain_2_i">MOUNTAIN 2</div>
+              <div class="rectangle_m2_i"></div>
+            </div>
+            <div id="mountain1_inactive">
+              <div class="mountain_1_i">MOUNTAIN 1</div>
+              <div class="rectangle_m1_i"></div>
+              <div class="mountain_2_a">MOUNTAIN 2</div>
+              <div class="rectangle_m2_a"></div>
+            </div>
           </span>
         </label>
-          <input type="checkbox">
-          <!-- <span class="mountain_off" data-off="Mountain 1" data-on="Mountain 2" style="display:none";> -->
-            <!-- <div class="mountain_1">MOUNTAIN 1</div>
-            <div class="mountain_2">MOUNTAIN 2</div> -->
-            <div class="rectangle_21"></div>
             <div class="rectangle_20"></div>
-          <!-- </span> -->
-
       </div>
+
+
+
+
       <div class="Tab_Content">
-        <div class="Tab_1">
+        <div id="mountain1_active" class="Tab_1">
           <div class="Tab_1_Content">
             <div class="page_2_background_m1"></div>
             <div class="Rectangle_22A"></div>
@@ -141,7 +148,7 @@
             </div>
           </div>
         </div>
-        <div class="Tab_2">
+        <div id="mountain2_active" class="Tab_2">
           <div class="Tab_2_Content">
             <div class="page_2_background_m2"></div>
             <div class="Rectangle_22B"></div>

@@ -13,3 +13,8 @@ ADJUST FOR MOBILE
 
 JS
 
+
+
+tickets:
+- page moving w/ carousel buttons
+
