@@ -603,13 +603,22 @@ input:checked + .mountain_off:before {
   margin-bottom: -100px;
 }
 
-/* #mountain1_active {
-  display: none;
-} */
-
-/* #mountain2_active {
+#mountain1_active {
   display: block;
-} */
+}
+
+#mountain1c_active {
+  display: block;
+}
+
+#mountain2_active {
+  display: none;
+}
+
+#mountain2c_active {
+  display: none;
+}
+
 
 
 .mountain_1_a {
@@ -742,6 +751,15 @@ input:checked + .mountain_off:before {
 
 
 
+
+
+.linkSwitch {
+  margin-left: 320px;
+  width: 280px;
+  height: 40px;
+  background-color: transparent;
+  z-index: 41;
+}
 
 
 .rectangle_20 {
