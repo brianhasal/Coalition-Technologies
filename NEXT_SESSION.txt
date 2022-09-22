@@ -6,14 +6,16 @@ Start Using JavaScript
 (CSSONLY - each button is assigned a corresponding div - moves pictures down
 new color for pushed buttons use the HOLY GRAIL bookmark)
 
-CHECKBOX FOR MOUNTAIN 1 / MOUNTAIN 2 SWITCH
 (CSSONLY - HOLY GRAIL 'Hide and Show Content Section'
+CHECKBOX FOR MOUNTAIN 1 / MOUNTAIN 2 SWITCH
 
 ADJUST FOR MOBILE
+- Sticky Nav now drops history and teams when page shrinks
 
-JS
+Next Steps:
+- when sticky nav < 1266px, menu button pops up with inner menu
 
-
+- Make all same adjustments for main navbar
 
 tickets:
 - page moving w/ carousel buttons

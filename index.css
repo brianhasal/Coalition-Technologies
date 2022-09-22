@@ -239,7 +239,11 @@ a:active {
   z-index: 981;
 }
 
-
+@media screen and (max-width: 1266px) {
+  .nav_links_sticky, .sticky_shapes {
+    display: none;
+  }
+}
 
 /* 
 STICKY COLLAPSING MENU - UNFINISHED
@@ -284,6 +288,11 @@ input:checked ~ .menu-content {
   max-height: 100%;
 }
  */
+
+
+
+
+
 
 
 
@@ -346,6 +355,14 @@ input:checked ~ .menu-content {
   width: 822px;
   height: 62px;
 }
+
+
+
+
+
+
+
+
 
 
 
