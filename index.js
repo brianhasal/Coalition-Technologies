@@ -38,7 +38,18 @@ function showMenuButton(divID) {
   }
 }
 
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
 
+function revealMenu(divId) {
+  if (document.getElementById(divId).style.display === "block") {
+    document.getElementById(divId).style.display = "none";
+  } else {
+    document.getElementById(divId).style.display = "block";
+  }
+}
 
 
 
