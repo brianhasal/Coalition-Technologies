@@ -20,18 +20,23 @@ function changeDiv(topDiv, underDiv, topDivC, underDivC) {
     document.getElementById(underDiv).style.display = 'block';
     document.getElementById(topDivC).style.display = 'none';
     document.getElementById(underDivC).style.display = 'block';
-    console.log("UnderDiv should be showing");
+    // console.log("UnderDiv should be showing");
   } else {
     document.getElementById(topDiv).style.display = 'block';
     document.getElementById(underDiv).style.display = 'none';
     document.getElementById(topDivC).style.display = 'block';
     document.getElementById(underDivC).style.display = 'none';
-    console.log("TopDiv should be showing");
+    // console.log("TopDiv should be showing");
   };
-  console.log("I did it");
 }
 
-
+function showMenuButton(divID) {
+  if (document.getElementById(divID).style.width < "1266px") {
+    document.getElementById('menuButton').style.display = 'block';
+  } else {
+    document.getElementById('menuButton').style.display = 'none';
+  }
+}
 
 
 
